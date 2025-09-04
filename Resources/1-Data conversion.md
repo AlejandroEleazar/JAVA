@@ -1,99 +1,82 @@
-# ✨ Data Conversion ✨
-&nbsp;
-## String to Integer
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" width="120"/>
+</p>
+<h1 align="center">✨ Java Data Conversion Cheat Sheet ✨</h1>
 
-`Integer.valueOf("String");`
+<p align="center">
+  Quick reference for converting between <b>Strings, Integers, Doubles, Floats, Booleans, and Chars</b> in Java. 🚀
+</p>
+<br>
 
-`Integer.parseInt("String");`
+---
 
-## Integer to String
+## 🟢 String ↔ Integer
 
-`Integer.toString(int);`
 
-`String.valueOf(int);`
+**String → Integer**
+```java
+Integer.valueOf("123");   // returns Integer object
+Integer.parseInt("123");  // returns int primitive
+```
+**Integer → String**
 
-## Char to String
+```java
+Integer.toString(123);
+String.valueOf(123);
+```
+---
 
-`character.toString(char);`
+## 🟡 Char ↔ String
 
-## String to Char
+**Char → String**
+```java
+Character.toString('a');
+```
+**String → Char**
 
-`cadena.charAt(character);`
+```java
+String s = "hello";
+char c = s.charAt(0); // 'h'
+```
+---
 
-## String to Double
+## 🔵 String ↔ Double
 
-`Double.parseDouble(string);`
+**String → Double**
+```java
+Double.parseDouble("3.14");
+```
+**Double → String**
+```java
+String.valueOf(3.14);
+```
+---
 
-## Double to String
+## 🟣 String ↔ Float
 
-`String.valueOf(double);`
+**String → Float**
+```java
+Float.parseFloat("3.14f");
+```
+**Float → String**
+```java
+Float.toString(3.14f);
+```
+---
 
-## String to Float
+## 🔴 String ↔ Boolean
 
-`Float.parseFloat(String);`
+**String → Boolean**
+```java
+Boolean.valueOf("true");      // Boolean object
+Boolean.parseBoolean("true");  // boolean primitive
 
-## Float to String
+```
+**Boolean → String**
+```java
+String.valueOf(true);
+Boolean.toString(true);
+```
+---
 
-`Float.toString(float);`
-
-## String to Boolean
-
-`Boolean.valueOf(String);`
-
-`Boolean.parseBoolean(String);`
-
-## Boolean to String
-
-`String.valueOf(boolean);`
-
-`Boolean.toString(boolean);`
-
-<!-- 
-char a String
-String cadena = Character.toString(char);
-Ejemplo:
-
-char codigo = 'A';
-String cadena = Character.toString(codigo);
-
-String a char
-char caracter = cadena.charAt(0); //Solo primer caracter
-Ejemplo:
-String codigo= "E";
-char caracter = cadena.charAt(0);
-
-String a Double
-double doble = Double.parseDouble(cadena);
-Ejemplo:
-double doble = Double.parseDouble("900.1");
-
-Double a String
-String cadena = String.valueOf(doble);
-Ejemplo:
-double totalDoble = 900.5;
-String totalString = String.valueOf(doble);
-
-String a Float
-float flotante = Float.parseFloat(cadena);
-Ejemplo:
-float importe = Float.parseFloat("900.5");
-
-Float a String
-String cadena = Float.toString(flotante);
-Ejemplo:
-String total = Float.toString(900.1f);
-
-String a Boolean
-Boolean boolean = Boolean.valueOf(cadena);
-// o
-boolean boolean = Boolean.parseBoolean(cadena);
-Ejemplo:
-Boolean boolean = Boolean.valueOf("true");
-// o
-boolean boolean = Boolean.parseBoolean("false");
-
-Boolean a String
-String cadena = String.valueOf(b);
-// o
-String cadena = Boolean.toString(b);
--->
+<p align="center"> 💡 <b>Tip:</b> Always handle <code>NumberFormatException</code> when parsing numbers from Strings to avoid runtime errors. </p>
