@@ -20,8 +20,16 @@
 
 # Statement
 
+**Description**
+
 Design a program that asks the user to enter a number and then displays it.
 
+**Example**
+
+```
+Enter a number: 7 // Input
+You enter: 7 // Output
+```
 ---
 
 # Explanation
