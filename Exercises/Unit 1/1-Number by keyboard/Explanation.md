@@ -44,6 +44,9 @@ En este caso como no vamos a manejar excepciones solo tendremos que dividir el p
 
 En java tenemos dos librerias principales para pedir inputs `Scanner` y `JOptionPane`. En este ejemplo para simplificarlo aun mas voy a usar Scanner para hacer todo a traves de la terminal. 
 
+>[!Note]
+>JOptionPane nos permite pedir y mostrar la información a traves de una interfaz grafica
+
 >[!Tip]
 >Libreria Scanner: Java.util.scanner
 
@@ -77,5 +80,16 @@ System.out.println("Your number: " + num);
 >En caso de que el usuario introduzca un caracter que no sea un numero dara una excepcion
 
 **Con manejo de excepciones**
+
+A diferencia de en el caso anterior en este caso si vamos a manejar las excepciones que nos puedan aparecer y lo tendremos que dividir en tres partes:
+1. Manejo de Excepciones
+2. Pedir input al usuario
+3. Mostrar input
+
+***1-Manejo de Excepciones***
+
+***2-Pedir Input***
+
+***3-Mostrar Input***
 
 ---
