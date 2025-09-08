@@ -34,4 +34,44 @@ You enter: 7 // Output
 
 # Explanation
 
+Este problema tiene varias formas de resolverse, ya que el enunciado es muy ambiguo y da paso a multiples interpretaciones segun los conocimientos de programación que uno tenga. Al ser un ejercicio basico podriamos seguir al pie de la letra y hacer un programa que pida una entrada y luego la muestro sin tener encuenta excepciones. En este ejemplo lo voy a realizar tanto manejando excepciones como sin manejarlas.
+
+**Sin manejo de excepciones**
+
+En este caso como no vamos a manejar excepciones solo tendremos que dividir el problema en dos partes: 
+1. Perdir el input al usuario
+2. Mostrarlo
+
+En java tenemos dos librerias principales para pedir inputs `Scanner` y `JOptionPane`. En este ejemplo para simplificarlo aun mas voy a usar Scanner para hacer todo a traves de la terminal. 
+
+<p> 💡 <b>Tip:</b> Libreria de Scanner <code>Java.util.Scanner</code> </p>
+
+***1-Pedir input***
+
+1. Importaremos la libreria
+```
+Import Java.util.scanner;
+```
+2. Inicializamos el Scanner
+```
+Scanner sc = new Scanner(System.in);
+```
+3. Pedimos al usuario que introduzca un numero
+```
+System.out.print("Enter a number: ");
+```
+4. Almacenamos el input
+```
+int num = sc.nextInt();
+```
+
+***2-Mostrar***
+
+1. Lo mostramos por pantalla
+```
+System.out.println("Your number: " + num);
+```
+
+**Con manejo de excepciones**
+
 ---
