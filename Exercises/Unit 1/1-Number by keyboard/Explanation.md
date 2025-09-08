@@ -44,7 +44,8 @@ En este caso como no vamos a manejar excepciones solo tendremos que dividir el p
 
 En java tenemos dos librerias principales para pedir inputs `Scanner` y `JOptionPane`. En este ejemplo para simplificarlo aun mas voy a usar Scanner para hacer todo a traves de la terminal. 
 
-<p> 💡 <b>Tip:</b> Libreria de Scanner <code>Java.util.Scanner</code> </p>
+>[!Tip]
+>Libreria Scanner: Java.util.scanner
 
 ***1-Pedir input***
 
@@ -71,6 +72,9 @@ int num = sc.nextInt();
 ```
 System.out.println("Your number: " + num);
 ```
+
+>[!Warning]
+>En caso de que el usuario introduzca un caracter que no sea un numero dara una excepcion
 
 **Con manejo de excepciones**
 
