@@ -59,6 +59,12 @@ public class Ejercicio2_8 {
      * @param c Coeficiente de C de la ecuación.
      */
     private static void calculatingQuadraticEquation(int a, int b, int c){
+
+        if (a == 0) {
+            System.out.println("No es una ecuación de segundo grado.");
+            break;
+        }
+
         double discriminante = (Math.pow(b, 2) - (4*a*c));
 
         if (discriminante > 0) {
