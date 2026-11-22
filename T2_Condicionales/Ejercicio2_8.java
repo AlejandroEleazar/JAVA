@@ -62,7 +62,7 @@ public class Ejercicio2_8 {
 
         if (a == 0) {
             System.out.println("No es una ecuación de segundo grado.");
-            break;
+           
         }
 
         double discriminante = (Math.pow(b, 2) - (4*a*c));
