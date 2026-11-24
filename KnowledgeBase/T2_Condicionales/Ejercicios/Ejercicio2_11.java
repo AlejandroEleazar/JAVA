@@ -1,5 +1,6 @@
 package libro.KnowledgeBase.T2_Condicionales.Ejercicios;
 
+import java.util.Scanner;
 
 /**
  * 
@@ -16,5 +17,30 @@ package libro.KnowledgeBase.T2_Condicionales.Ejercicios;
  * @version 1.0
  */
 public class Ejercicio2_11 {
+
+    private static final int MIN_RANGE_VALUE = 0;
+    private static final int MAX_RANGE_VALUE = 10;
+    
+    public static void main(String[] args) {
+        
+
+    }
+
+    /**
+     * 
+     * @param sc
+     * @return
+     */
+    private static int readNumber(Scanner sc){
+        return 0;
+    }
+
+    /**
+     * 
+     * @param num
+     */
+    private static void grade(int num){
+
+    }
     
 }
