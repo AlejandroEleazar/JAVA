@@ -1,4 +1,4 @@
-package libro.T1_ConceptosBasicos.Ejercicios;
+package libro.KnowledgeBase.T1_ConceptosBasicos.Ejercicios;
 
 //Comprobar rango de calores de un tipo se comporta de forma ciclica
 

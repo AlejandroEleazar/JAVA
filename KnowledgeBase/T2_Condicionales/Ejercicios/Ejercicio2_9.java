@@ -1,4 +1,4 @@
-package libro.T2_Condicionales.Ejercicios;
+package libro.KnowledgeBase.T2_Condicionales.Ejercicios;
 
 import java.util.Scanner;
 
@@ -64,7 +64,7 @@ public class Ejercicio2_9 {
             }
 
             return number;
-        }
+            }
 
         }
 

@@ -1,4 +1,4 @@
-package libro.T1_ConceptosBasicos.Ejercicios;
+package libro.KnowledgeBase.T1_ConceptosBasicos.Ejercicios;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package libro.T2_Condicionales.Ejercicios;
+package libro.KnowledgeBase.T2_Condicionales.Ejercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
